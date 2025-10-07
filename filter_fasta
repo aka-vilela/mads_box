@@ -1,0 +1,1 @@
+seqtk subseq ~/local/proteina.fasta ids.txt > madsbox_protein.fasta 
