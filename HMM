@@ -1,0 +1,8 @@
+hmmsearch
+#link para baixar o hmm: https://www.ebi.ac.uk/interpro/entry/pfam/PF00319/logo/
+wget https://www.ebi.ac.uk/interpro/wwwapi//entry/pfam/PF00319?annotation=hmm
+#descompactar
+gunzip file_name
+# head = cabeçalho
+hmmsearch #roda o hmm
+# (base) dcanal@vm-pesq-Clarisse-OS23320:~/flora$ seqtk subseq ../Amanda/Pflammea/RANCOL-Annotation-Primary_Transcripts.prot ids_flammea.txt > Flammea_MAD.fasta
